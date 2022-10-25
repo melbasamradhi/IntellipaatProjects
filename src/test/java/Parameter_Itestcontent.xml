@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+<parameter name="browser" value="firefox"/>
+<parameter name="link" value="https://www.facebook.com/"/>
+
+
+
+  <test name="Test">
+    <classes>
+      <class name="parameter_xmlfile.Parameter_Itestcontent"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

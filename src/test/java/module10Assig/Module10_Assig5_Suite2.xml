@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Assignment-5
+Write a TestScript to execute Multiple Suite Files in  Maven-->
+
+<suite parallel="false" name="Suite1">
+  <test name="Test1">
+    <classes>
+      <class name="module10Assig.Module10_Assig5"/>
+      <class name="module10Assig.Module10_Assig5_TC1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
+
+

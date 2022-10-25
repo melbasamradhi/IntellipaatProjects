@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+	<test name="Test1">
+		<parameter name="browser" value="chrome" />
+		<parameter name="userName" value="standard_user" />
+		<parameter name="password" value="secret_sauce" />
+		<classes>
+			<class name="parameter_xmlfile.Parameter_Demo1" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="Test2">
+		<parameter name="browser" value="firefox" />
+		<parameter name="userName" value="standard_user" />
+		<parameter name="password" value="secret_sauce" />
+		<classes>
+			<class name="parameter_xmlfile.Parameter_Demo1" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Test3">
+		<parameter name="browser" value="edge" />
+		<parameter name="userName" value="standard_user" />
+		<parameter name="password" value="secret_sauce" />
+
+		<classes>
+			<class name="parameter_xmlfile.Parameter_Demo1" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

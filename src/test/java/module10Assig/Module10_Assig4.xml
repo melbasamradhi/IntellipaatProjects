@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Assignment-4 Write a TestScript to execute Multiple Classes from different packages in Maven  -->
+<suite parallel="false" name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="module10Assig.Module10_Assig4_TC1"/>
+      <class name="test1_Chrome.ChromeDemo"/>
+      <class name="test1_FF.FFDemo"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

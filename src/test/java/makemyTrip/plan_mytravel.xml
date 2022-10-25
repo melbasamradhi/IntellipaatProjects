@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="source_city" value="Chennai"/>
+<parameter name="destination_city" value="Delhi"/>
+<parameter name="dep_monYr" value="March2023"/>
+<parameter name="dep_date" value="31"/>
+<parameter name="return_monYr" value="May2023"/>
+<parameter name="return_date" value="5"/>
+<parameter name="return_monYr" value="May2023"/>
+
+<?no of adults should be 1 to 9 or '>9'?>
+<parameter name="no_of_Adults" value="2"/>
+
+<?no of children should be 0 to 6 or '>6'?>
+<parameter name="no_of_Children" value="2"/>
+
+<?no of infants should be 0 to 6 or '>6'?>
+<parameter name="no_of_infants" value="5"/>
+
+<?travel classs should be 'Economy/Premium Economy' or 'Premium Economy' or 'Business'?>
+<parameter name="travel_Class" value="Economy/Premium Economy"/>
+
+<?travel classs should be 'Regular' or 'Armed Forces ' or 'Student ' or 'Senior Citizen ' or 'Doctors & Nurses '?>
+<parameter name="fare_type" value="Senior Citizen"/>
+
+
+
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="makemyTrip.plan_mytravel"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

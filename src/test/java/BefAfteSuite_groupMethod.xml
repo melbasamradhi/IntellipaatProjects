@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+  <groups>
+  <run>
+  <include name="login_mod"/>
+ 
+  </run>
+  </groups>
+    <classes>
+    <class name="befAftSuiteDemo.BefAfteSuite_groupMethod">
+    <methods>
+     
+      <exclude name="module_in3"/>
+      
+      </methods>
+    </class>
+      <class name="befAftSuiteDemo.BefAfteSuite_groupMethod"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

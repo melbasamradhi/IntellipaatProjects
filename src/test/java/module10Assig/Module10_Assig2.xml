@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Write a TestScript to execute Multiple Packages in Maven -->
+<suite parallel="false" name="Suite">
+  <test name="Test">
+    <packages>
+    <package name="test1_Chrome"/>
+    <package name="test1_Edge"/>
+    <package name="test1_FF"/>
+    
+    </packages>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
